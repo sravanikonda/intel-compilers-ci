@@ -127,27 +127,27 @@ each branch.
 
 ### TravisCI
 
-Status: [![Build Status](https://travis-ci.org/rscohn2/intel-compilers-ci.svg?branch=master)](https://travis-ci.org/rscohn2/intel-compilers-ci)
+Status: [![Build Status](https://travis-ci.org/rscohn2/intel-compilers-ci.svg?branch=2019U3)](https://travis-ci.org/rscohn2/intel-compilers-ci)
 
 Setting the environment variable:
 [Instructions](https://docs.travis-ci.com/user/environment-variables/#defining-variables-in-repository-settings)
 
 ### CircleCI
 
-Status: [![CircleCI](https://circleci.com/gh/rscohn2/intel-compilers-ci/tree/master.svg?style=svg)](https://circleci.com/gh/rscohn2/intel-compilers-ci/tree/master)
+Status: [![CircleCI](https://circleci.com/gh/rscohn2/intel-compilers-ci/tree/2019U3.svg?style=svg)](https://circleci.com/gh/rscohn2/intel-compilers-ci/tree/2019U3)
 
 Setting the environment variable:
 [Instructions](https://circleci.com/docs/2.0/env-vars/#setting-an-environment-variable-in-a-project)
 
 ### Gitlab CI/CD
 
-Status: [![Build Status](https://gitlab.com/rscohn2/intel-compilers-ci/badges/master/build.svg)](https://gitlab.com/rscohn2/intel-compilers-ci/-/jobs)
+Status: [![Build Status](https://gitlab.com/rscohn2/intel-compilers-ci/badges/2019U3/build.svg)](https://gitlab.com/rscohn2/intel-compilers-ci/-/jobs)
 
 Setting the environment variable: [instructions](https://docs.gitlab.com/ee/ci/variables/#protected-variables)
 
 ### Appveyor
 
-Status: [![Build status](https://ci.appveyor.com/api/projects/status/lhhe8c5xho1ra7kx/branch/master?svg=true)](https://ci.appveyor.com/project/rscohn2/intel-compilers-ci/branch/master)
+Status: [![Build status](https://ci.appveyor.com/api/projects/status/lhhe8c5xho1ra7kx/branch/2019U3?svg=true)](https://ci.appveyor.com/project/rscohn2/intel-compilers-ci/branch/2019U3)
 
 Setting the environment variable: [instructions](https://www.appveyor.com/docs/build-configuration/#custom-environment-variables)
 
