@@ -2,26 +2,18 @@ version: 2
 jobs:
   build:
     docker:
-      - image: gcc:7.4
+      - image: sravanik/icc-demo-docker:0.0.1
+        auth:
+          username: $DOCKER_USERNAME
+          password: $DOCKER_PASSWORD
 
     steps:
       - checkout
 
       - run:
-          name: Update Repo Information
-          command: apt-get update -qq
-
-      - run:
-          name: Install Cmake
-          command: apt-get install -qq -y cpio cmake g++-multilib openssl wget
-
-      - run:
-          name: Install ICC
-          command: ./is-installers/linux/is-install.sh
-
-      - run:
           name: Build and Test Project
-          command: source /opt/intel/bin/iccvars.sh -arch intel64 && 
+          command: source /opt/intel/bin/iccvars.sh -arch intel64 &&
+                   printenv IS_LICENSE_DATA_LINUX | openssl base64 -d -A > /opt/intel/licenses/license.lic && 
                    icc -v && 
                    mkdir build && cd build && 
                    FC=ifort CC=icc CXX=icpc cmake ../src && 
