@@ -154,7 +154,7 @@ Setting the environment variable: [instructions](https://www.appveyor.com/docs/b
 
 Status: [![Build Status](https://dev.azure.com/robertscohn/intel-compilers-ci/_apis/build/status/rscohn2.intel-compilers-ci?branchName=master)](https://dev.azure.com/robertscohn/intel-compilers-ci/_build/latest?definitionId=1&branchName=master)
 
-Setting the environment variable: https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=designer%2Cbatch#secret-variables
+Setting the environment variable: [instructions](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=designer%2Cbatch#secret-variables)
 
 ## Updating for a new compiler release
 
