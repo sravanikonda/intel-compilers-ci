@@ -150,6 +150,12 @@ Status: [![Build status](https://ci.appveyor.com/api/projects/status/lhhe8c5xho1
 
 Setting the environment variable: [instructions](https://www.appveyor.com/docs/build-configuration/#custom-environment-variables)
 
+### Azure Pipelines
+
+Status: [![Build Status](https://dev.azure.com/robertscohn/intel-compilers-ci/_apis/build/status/rscohn2.intel-compilers-ci?branchName=master)](https://dev.azure.com/robertscohn/intel-compilers-ci/_build/latest?definitionId=1&branchName=master)
+
+Setting the environment variable: https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=designer%2Cbatch#secret-variables
+
 ## Updating for a new compiler release
 
 * Update the installer URL and file names in the install script and
